@@ -1,0 +1,9 @@
+target/
+config/origin.properties
+*.log
+# past-project files dropped into DB/ are data, not source
+DB/*
+!DB/.gitkeep
+tools/qa/shots/
+__pycache__/
+deliverables/v2-backup/

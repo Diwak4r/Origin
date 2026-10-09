@@ -1,0 +1,72 @@
+title|year|domain|type|tags|abstract|stack
+Library Management System|2019|EDU|Web App|library;student;notification|Records books, members and issue/return dates for a college library, calculates late fines and lists overdue borrowers.|Servlet, JSP, JDBC, MySQL, ER diagram, 3NF
+Online Library Book Lending Portal|2021|EDU|Web App|library;booking;student|Students search the catalog, reserve a book online and receive a reminder before the return date.|Servlet, JSP, JDBC, MySQL, stored procedure
+Smart Library with RFID|2023|EDU|IoT / Hardware|library;rfid;sensor|RFID tags on books let the counter issue and return books automatically and detect books leaving without checkout.|Arduino, RFID reader, Java, JDBC, MySQL, serial interrupts
+College Library Desktop Manager|2020|EDU|Desktop App|library;inventory;billing|Desktop application for librarians to add books, issue them to students and print fine receipts.|Java Swing, JTable, JDBC, MySQL
+Student Attendance Management System|2019|EDU|Web App|attendance;student;dashboard|Teachers mark daily attendance per subject and the system produces monthly attendance percentages.|Servlet, JSP, JDBC, MySQL, SQL view, bar chart
+QR Code Attendance App|2022|EDU|Mobile App|attendance;qr-code;student|Students scan a QR code shown by the teacher to mark attendance; proxies are reduced by expiring codes.|Android, Java, MySQL, QR scanner
+RFID Based Attendance System|2021|EDU|IoT / Hardware|attendance;rfid;sensor|Students tap an RFID card at the classroom door and attendance is logged to a database.|Arduino, RFID reader, Java, JDBC, MySQL, interrupts
+Student Information Management System|2019|EDU|Desktop App|student;result;course|Keeps student profiles, enrolled courses and semester marks for the administration office.|Java Swing, JTable, JDBC, MySQL, serialization, backup
+Online Examination System|2020|EDU|Web App|exam;quiz;result|Teachers create multiple choice exams, students attempt them online and results are calculated instantly.|Servlet, JSP, JDBC, MySQL, threads for the exam timer
+Result Processing and Marksheet System|2021|EDU|Desktop App|result;exam;student|Enters internal and final marks, computes GPA and prints marksheets for each student.|Java Swing, JDBC, MySQL, stored procedure, arithmetic mean and standard deviation of marks
+E-Learning Platform for Colleges|2022|EDU|Web App|e-learning;course;quiz|Teachers upload notes and videos, students take quizzes and track course progress.|Servlet, JSP, JDBC, MySQL, caching
+Class Timetable Generator|2023|EDU|Desktop App|timetable;scheduling;course|Generates a clash-free weekly routine from teacher availability and room capacity.|Java Swing, JDBC, MySQL, backtracking, round robin slot assignment
+Hostel Management System|2020|EDU|Web App|hostel;billing;student|Manages hostel rooms, student allocation and monthly fee billing.|Servlet, JSP, JDBC, MySQL, rollback on failed fee posting
+Hospital Management System|2019|HLT|Web App|hospital;patient;billing;appointment|Registers patients, books doctor appointments, records treatments and generates bills.|Servlet, JSP, JDBC, MySQL, triggers, role based access
+Clinic Appointment Booking App|2022|HLT|Mobile App|appointment;hospital;notification|Patients choose a doctor and time slot and get a reminder before the appointment.|Android, Java, MySQL
+Pharmacy Inventory and Billing|2021|HLT|Desktop App|pharmacy;medicine;inventory;billing|Tracks medicine stock and expiry dates in a pharmacy and prints customer bills.|Java Swing, JDBC, MySQL, triggers, backup
+Blood Bank Management System|2020|HLT|Web App|blood-donation;hospital;notification|Records donors and blood units by group and alerts hospitals when a group runs low.|Servlet, JSP, JDBC, MySQL, triggers
+Blood Donor Finder App|2023|HLT|Mobile App|blood-donation;gps;notification|Finds nearby willing donors of a required blood group and lets requesters call them.|Android, Java, GPS, MySQL
+Patient Health Record System|2022|HLT|Web App|health-record;patient;hospital|Stores patient history, prescriptions and lab reports so any doctor in the hospital can view them.|Servlet, JSP, JDBC, MySQL, encryption, access control
+Online Doctor Consultation Portal|2024|HLT|Web App|telemedicine;appointment;chat|Patients book a video or chat consultation with a doctor and receive a digital prescription.|Servlet, JSP, JDBC, MySQL, sockets
+Diabetes Risk Prediction|2024|HLT|Data & Analytics|prediction;patient;analytics|Uses a public dataset and logistic regression to estimate diabetes risk from basic health indicators.|Java, Weka, logistic regression, public dataset, histogram
+Krishi Bazaar Online Marketplace|2022|AGR|Web App|farmer;e-commerce;market-price|Farmers list vegetables for sale and buyers in the city place orders directly.|Servlet, JSP, JDBC, MySQL
+Smart Irrigation Using Soil Moisture|2023|AGR|IoT / Hardware|irrigation;soil;sensor|A soil moisture sensor with an Arduino switches the water pump on only when the field is dry.|Arduino, soil moisture sensor, relay, Java, MySQL, interrupts
+Hotel Management System|2019|TOU|Web App|hotel;booking;billing|Manages room booking, check-in, check-out and billing for a hotel.|Servlet, JSP, JDBC, MySQL, 3NF
+Online Hotel Reservation Portal|2021|TOU|Web App|hotel;booking;payment|Guests search available rooms, book and pay online, and receive a booking confirmation.|Servlet, JSP, JDBC, MySQL, rollback
+Travel Agency Management System|2020|TOU|Desktop App|travel;booking;billing|Handles tour packages, customer bookings and invoices for a travel agency.|Java Swing, JDBC, MySQL, CSV export
+Trekking Guide Booking Portal|2023|TOU|Web App|trekking;guide;booking;rating|Trekkers hire licensed guides for popular routes and rate them after the trip.|Servlet, JSP, JDBC, MySQL
+Tourist Places Recommendation App|2024|TOU|Mobile App|tourism;recommendation;map|Suggests tourist spots in Nepal based on interests and shows them on a map.|Android, Java, MySQL, Google Maps
+Online Banking System|2019|FIN|Web App|banking;payment;savings|Customers check balance, transfer funds between accounts and view statements.|Servlet, JSP, JDBC, MySQL, rollback, hashing, access control
+Personal Expense Tracker|2021|FIN|Mobile App|expense;analytics;notification|Users record daily expenses by category and see monthly spending charts.|Android, Java, SQLite, pie chart
+Cooperative Savings Management|2022|FIN|Desktop App|cooperative;savings;loan|Manages member savings, loan issue and interest calculation for a local cooperative.|Java Swing, JDBC, MySQL, stored procedure for interest, fixed point arithmetic
+Loan Management System|2020|FIN|Web App|loan;banking;notification|Tracks loan applications, approvals, installments and overdue reminders.|Servlet, JSP, JDBC, MySQL, triggers
+NEPSE Stock Price Analyzer|2024|FIN|Data & Analytics|stock-market;prediction;dashboard|Collects daily NEPSE prices and shows trends and moving averages for listed companies.|Java, JDBC, MySQL, moving average, regression, histogram, normal distribution
+Online Shopping System|2019|COM|Web App|e-commerce;payment;delivery|Customers browse products, add to cart, pay online and track delivery.|Servlet, JSP, JDBC, MySQL
+E-Commerce Website for Clothing|2020|COM|Web App|e-commerce;shop;payment|Online clothing store with product catalog, cart and cash-on-delivery orders.|Servlet, JSP, JDBC, MySQL
+Online Grocery Store|2021|COM|Web App|e-commerce;delivery;inventory|Groceries ordered online are packed from inventory and delivered within the city.|Servlet, JSP, JDBC, MySQL, triggers for stock
+Inventory Management System|2019|COM|Desktop App|inventory;billing;shop|Tracks purchase, sales and stock of a retail shop with low-stock warnings.|Java Swing, JTable, JDBC, MySQL, triggers
+Restaurant Management System|2020|COM|Desktop App|restaurant;pos;billing|Takes table orders, sends them to the kitchen and prints the final bill.|Java Swing, JDBC, MySQL, threads
+Online Food Ordering App|2022|COM|Mobile App|food-order;restaurant;delivery;payment|Customers order food from local restaurants and track the delivery rider.|Android, Java, MySQL
+Point of Sale System for Supermarket|2021|COM|Desktop App|pos;billing;inventory|Barcode based checkout that updates stock and prints receipts.|Java Swing, JDBC, MySQL, barcode scanner
+Second Hand Goods Marketplace|2023|COM|Web App|e-commerce;shop;chat|Users post used items for sale and chat with interested buyers.|Servlet, JSP, JDBC, MySQL, sockets for chat
+Bus Ticket Booking System|2019|TRN|Web App|bus;booking;payment|Passengers book long-route bus seats online and receive an e-ticket.|Servlet, JSP, JDBC, MySQL, rollback, locking
+Ride Sharing App for Students|2023|TRN|Mobile App|ride-sharing;gps;student|Students heading the same way share rides and split the fare.|Android, Java, GPS, MySQL
+Vehicle Rental System|2021|TRN|Web App|vehicle;booking;payment|Rent cars and bikes by the day with online booking and payment.|Servlet, JSP, JDBC, MySQL
+Smart Parking System|2024|TRN|IoT / Hardware|parking;sensor;gps|Ultrasonic sensors detect free parking slots and show them in a mobile view.|Arduino, ultrasonic sensor, Java, MySQL, interrupts
+Online Voting System|2020|GOV|Web App|voting;verification|Students vote in college elections online with one vote per verified account.|Servlet, JSP, JDBC, MySQL, hashing, encryption, rollback
+Municipal Complaint Portal|2022|GOV|Web App|complaint;citizen-service;notification|Citizens lodge complaints about roads and waste, and the municipality updates their status.|Servlet, JSP, JDBC, MySQL, triggers
+Waste Collection Tracker|2023|ENV|Mobile App|waste;gps;notification|Residents see when the garbage truck will reach their street.|Android, Java, GPS, MySQL
+Weather Information App|2021|ENV|Mobile App|weather;notification|Shows current weather and a five day forecast for Nepalese cities.|Android, Java, REST API
+Job Portal|2019|JOB|Web App|job;recruitment|Employers post vacancies and job seekers apply with their CV.|Servlet, JSP, JDBC, MySQL
+Online Recruitment System|2021|JOB|Web App|recruitment;job;notification|HR shortlists applicants, schedules interviews and sends status updates.|Servlet, JSP, JDBC, MySQL, stored procedure
+Freelancer Marketplace|2023|JOB|Web App|freelancing;payment;rating|Clients post small tasks, freelancers bid and are rated after completion.|Servlet, JSP, JDBC, MySQL
+Internship Finder for Students|2022|JOB|Web App|internship;student;job|Lists internship openings from local companies for IT students.|Servlet, JSP, JDBC, MySQL, indexing
+Event Management System|2020|SOC|Web App|event;booking;payment|Organizers publish events and attendees register and pay online.|Servlet, JSP, JDBC, MySQL, rollback
+Social Networking Site for Students|2021|SOC|Web App|social-network;chat;student|Students create profiles, post updates and message classmates.|Servlet, JSP, JDBC, MySQL, threads
+Online Donation Platform|2022|SOC|Web App|donation;payment;verification|NGOs list causes and donors contribute online with receipts.|Servlet, JSP, JDBC, MySQL, hashing for receipts
+Lost and Found Portal|2023|SOC|Web App|lost-and-found;notification|Users post lost or found items with photos and get notified of matches.|Servlet, JSP, JDBC, MySQL
+Chat Application Using Sockets|2021|SOC|Desktop App|chat;notification|A client-server desktop chat that supports private and group messages over TCP sockets.|Java Swing, sockets, TCP, threads, serialization
+Movie Ticket Booking System|2019|MED|Web App|movie;booking;payment|Cinema goers pick a show, choose seats and pay online.|Servlet, JSP, JDBC, MySQL, locking, rollback
+Music Streaming App|2022|MED|Mobile App|music;streaming;recommendation|Streams songs by genre and suggests tracks based on listening history.|Android, Java, MySQL, caching
+Online News Portal|2020|MED|Web App|news;notification|Publishes categorized news articles with an admin panel for editors.|Servlet, JSP, JDBC, MySQL
+Snake Game in Java|2019|MED|Game|game|Classic snake game built with Java Swing and keyboard controls.|Java Swing, threads, ArrayList
+Quiz Game for Kids|2022|EDU|Game|quiz;game;e-learning|An educational quiz game with levels and scores for primary school children.|Java Swing, inheritance, polymorphism, JDBC
+Futsal Booking System|2023|MED|Web App|sports;booking;payment|Players book futsal courts by the hour and pay advance online.|Servlet, JSP, JDBC, MySQL, locking
+College Canteen Ordering System|2024|COM|Web App|restaurant;food-order;student|Students pre-order canteen food and pick it up without waiting in line.|Servlet, JSP, JDBC, MySQL
+Gym Membership Management|2022|SOC|Desktop App|billing;scheduling;notification|Tracks gym members, fee payments and renewal reminders.|Java Swing, JDBC, MySQL, threads for reminders, triggers
+Salary and Payroll System|2020|FIN|Desktop App|billing;banking;document|Calculates monthly salary, tax deductions and prints payslips.|Java Swing, JDBC, MySQL, stored procedure, file IO for payslips
+Real Estate Listing Portal|2021|COM|Web App|e-commerce;map;rating|Owners list land and houses for sale or rent with location on a map.|Servlet, JSP, JDBC, MySQL, Google Maps
+Tuition Finder Portal|2023|EDU|Web App|course;student;rating|Parents find home tutors by subject and area and rate them.|Servlet, JSP, JDBC, MySQL
+Hospital Queue Token System|2024|HLT|Web App|queue;hospital;sms|Issues digital tokens for OPD and sends an SMS when the patient's turn is near.|Servlet, JSP, JDBC, MySQL, SMS gateway, FCFS queue
+Electricity Bill Payment Portal|2022|FIN|Web App|billing;payment;energy|Customers view and pay monthly electricity bills online.|Servlet, JSP, JDBC, MySQL, rollback, triggers

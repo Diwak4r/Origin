@@ -1,0 +1,42 @@
+course|unit|name|crud|keywords
+JAVA|1|Inheritance and polymorphism|0|inheritance,polymorphism,abstract-class,method-overriding
+JAVA|1|Collections framework|0|arraylist,hashmap,hashset,treemap,java-collections,vector
+JAVA|1|Exception handling|0|exception,custom-exception,try-catch,exception-handling
+JAVA|1|Multithreading|0|thread,threads,multithreading,multithreaded,thread-safe,concurrent,background-thread
+JAVA|3|Swing GUI|0|swing,jtable,jframe,jtree,jpanel
+JAVA|4|File IO and serialization|0|serialization,serialize,csv,file-handling,file-io,bufferedreader
+JAVA|5|JDBC|1|jdbc,preparedstatement,mysql,database,sql
+JAVA|6|Socket programming|0|socket,sockets,tcp,udp,datagram
+JAVA|7|RMI and distributed objects|0|rmi,remote-method,distributed-objects
+JAVA|8|Servlet and JSP|1|servlet,jsp,tomcat
+DBMS|2|ER model and normalisation|1|normalization,normalisation,er-diagram,erd,3nf,bcnf
+DBMS|4|SQL views|0|create-view,sql-view,database-view
+DBMS|4|Triggers|0|triggers,database-trigger,db-trigger,sql-trigger
+DBMS|4|Stored procedures and functions|0|stored-procedure,stored-procedures,stored-function,plsql,pl-sql
+DBMS|8|Transactions and ACID|0|acid,rollback,atomicity,database-transaction,transaction-management
+DBMS|8|Locking and deadlock in databases|0|locking,row-lock,serializability,two-phase-locking,timestamp-ordering
+DBMS|7|Database security and access control|0|encryption,access-control,role-based,hashing,non-repudiation,sha-256,pbkdf2
+DBMS|9|Backup and recovery|0|backup,recovery,restore,write-ahead-log
+DBMS|8|Query processing and indexing|0|indexing,query-optimization,query-plan,b-tree,inverted-index
+OS|2|Process scheduling|0|fcfs,sjf,round-robin,priority-scheduling,process-scheduling,cpu-scheduling,scheduler-thread
+OS|2|Semaphores and critical sections|0|semaphore,mutex,critical-section,race-condition,producer-consumer
+OS|3|Page replacement|0|page-replacement,paging,lru,page-fault,virtual-memory,fifo-page
+OS|3|Memory allocation|0|first-fit,best-fit,worst-fit,segmentation,swapping,memory-allocation
+OS|5|Disk scheduling|0|disk-scheduling,sstf,c-scan,c-look,seek-time,elevator-algorithm
+OS|6|Deadlock and Banker's algorithm|0|deadlock,bankers-algorithm,safe-state,resource-allocation-graph
+OS|4|File systems|0|file-system,inode,directory-structure
+OS|7|Real-time systems|0|rtos,hard-real-time,soft-real-time,earliest-deadline,deadline-scheduling
+OS|8|Distributed systems|0|distributed,replication,fault-tolerance
+COA|2|Instruction cycle and registers|0|instruction-cycle,instruction-register,cpu-register,program-counter,fetch-decode,microprogram,assembly-language
+COA|4|Addressing modes|0|addressing-mode,addressing-modes,opcode,instruction-format
+COA|5|Pipelining|0|instruction-pipeline,pipelining,pipeline-hazard,pipelined-processor
+COA|6|Computer arithmetic|0|booth,floating-point,fixed-point,alu,adder
+COA|7|Interrupts and DMA|0|interrupt,interrupts,dma,io-processor
+COA|8|Cache and memory hierarchy|0|cache-memory,caching,lru-cache,direct-mapped,memory-hierarchy,cache-hit
+STATS|5|Descriptive statistics|0|arithmetic-mean,median,standard-deviation,variance,dispersion,quartile,central-tendency
+STATS|4|Charts and graphs|0|histogram,bar-chart,pie-chart,ogive,frequency-polygon
+STATS|7|Probability|0|probability,bayes,conditional-probability,bayesian
+STATS|8|Probability distributions|0|binomial,poisson,normal-distribution
+STATS|9|Hypothesis testing|0|hypothesis,t-test,z-test,confidence-interval,p-value,significance-test
+STATS|10|Chi-square test|0|chi-square,goodness-of-fit,independence
+STATS|11|Correlation and regression|0|correlation,regression,least-squares,trend-line

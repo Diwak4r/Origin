@@ -1,0 +1,17 @@
+# Copy this file to origin.properties and fill in your values.
+# origin.properties is git-ignored: keep passwords and keys out of the repository.
+
+origin.port=8080
+
+origin.db.url=jdbc:mysql://localhost:3306/origin?createDatabaseIfNotExist=true&serverTimezone=Asia/Kathmandu
+origin.db.user=root
+origin.db.password=
+
+# Folder that Origin watches for past-project CSV files. Created if missing.
+origin.db.folder=DB
+
+# Decision engine (TypeSafe Jev). Switched off for now: the app never calls it, whatever is set here.
+# See App.java to turn it back on.
+origin.engine.key=
+origin.engine.url=https://api.typesafe.ai/v1/systemone
+origin.engine.model=jev-latest
